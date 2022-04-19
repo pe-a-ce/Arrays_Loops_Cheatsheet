@@ -13,6 +13,13 @@
 | Syntax | Description |
 | ----------- | ----------- |
 |Arrayname.add("value")|To add to ArrayList
+| System.out.println(scottishIslands.indexOf("Value"));| Print out the index position of "Value"
+|scottishIslands.remove("Tresco");| Remove "Tresco" from the list by name
+|scottishIslands.remove(5);| Remove "Arran" from the list by index 
+|Collections.sort(scottishIslands);| Sort the list alphabetically
+|System.out.println(scottishIslands.size());| System.out.println(scottishIslands.size());
+|Print the sum of the numbers|  
+| System.out.println(betterShoppingList.contains("milk")); | check if item is present (true or false)
 
 
 
@@ -22,9 +29,17 @@
 - Can search by the key to extract the value
 - Needs 2 data types to be defined; the datatype of the key and of the associated values (i.e. string and integer)
 
+Example: HashMap<String, Integer> mappedShoppingList = new HashMap();
+
 | Syntax | Description |
 | ----------- | ----------- |
-
+|  mapName.put("label", associated value);| adding a value
+| System.out.println(mappedShoppingList.get("milk")); | retrieve associated values 
+mappedShoppingList.remove("eggs");| remove key and its associated value
+|mappedShoppingList.replace("bread", 6);|  replace
+|mappedShoppingList.replace("milk", null);| updating a value
+|System.out.println(mappedShoppingList.keySet());| to see all keys
+|System.out.println(mappedShoppingList.values());| to see all values
 
 
 # LOOPS 
@@ -45,7 +60,6 @@ for (int i=1; i <=10; i++){
 
     system.out.println(i);
 }
-
 
 
 | Syntax | Description |
